@@ -1,1 +1,17 @@
-site_name: My Docs
+site_name: x2rs's Blog
+site_url: https://x2rs.github.io
+site_author: x2rs
+site_description: My personal documentation website.
+
+nav:
+  - Test:
+    - test/a.md
+
+theme:
+  name: material
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.expand
+    - navigation.sections
+    - navigation.indexes
