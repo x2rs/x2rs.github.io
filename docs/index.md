@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# x2rs的小站
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+x2rs的小站
 
-## Commands
+Github：[x2rs](https://github.com/x2rs)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+B站：[DreamSnow607](https://space.bilibili.com/1972220875)
