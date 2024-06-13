@@ -61,6 +61,15 @@ theme:
     # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
     - content.action.edit
 
+# [点击按钮跳转至 GitHub 修改 Markdown 源文件]
+# https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
+edit_uri: edit/main/docs/
+# [top-right corner]
+# [添加 GitHub 仓库]
+# https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
+repo_url: https://github.com/x2rs/x2rs.github.io
+repo_name: x2rs.github.io
+
 markdown_extensions:
   # [数学公式支持]
   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
