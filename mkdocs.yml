@@ -4,6 +4,8 @@ site_author: x2rs
 site_description: My personal documentation website.
 
 nav:
+  - 笔记:
+    - notes/Cramer-Rao.md
   - 杂项:
     - matlab/simple_linear.md
     - useful_apps.md
