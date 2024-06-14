@@ -99,3 +99,101 @@ $$
 $$
 \overline{v^2}=\overline{v_x^2}+\overline{v_y^2}+\overline{v_z^2}
 $$
+
+## 速率分布函数
+
+阿巴阿巴阿巴
+阿巴阿巴阿巴
+阿巴阿巴阿巴
+阿巴阿巴阿巴
+阿巴阿巴阿巴
+不会！
+就是概统的概率密度吧qwq
+
+## 速度分布函数
+
+速度范围：
+
+$$
+v_x \to v_x+dv_x
+$$
+
+$$
+v_y \to v_y+dv_y
+$$
+
+$$
+v_z \to v_z+dv_z
+$$
+
+设取在该速度范围的分子数为dN，则速度分布函数定义为
+
+$$
+F(v_x,v_y,v_z)=\frac{1}{N}\frac{dN}{dv_xdv_ydv_z}
+$$
+
+### 麦克斯韦速度分布函数
+
+麦克斯韦证明了，处于平衡态的理想气体系统，满足：
+
+$$
+F(v_x,v_y,v_z)=(\frac{m}{2\pi k_B T})^{\frac{3}{2}}e^{\frac{m}{2k_B T}(v_x^2+v_y^2+v_z^2)}
+$$
+
+### 麦克斯韦速率分布函数
+
+$$
+f(v)=4\pi(\frac{m}{2\pi k_B T})^{\frac{3}{2}}e^{\frac{m}{2k_B T}v^2}v^2
+$$
+
+证明：利用速度分布律可以导出速率分布律
+
+分子速率处于$v$和$v+dv$间的几率是分子速度矢量端点落在以$v$和$v+dv$为内外半径球壳内的几率。
+
+$$
+f(v)dv = F(v_x,v_y,v_z) \cdot 4 \pi v^2 dv
+$$
+
+*我感觉就是表面积*
+
+**注意到**，令
+
+$$
+\frac{k_B T}{m} = \sigma^2
+$$
+
+即
+
+$$
+\frac{m}{k_B T} = \frac{1}{\sigma^2}
+$$
+
+则上面两个分布函数变为：
+
+$$
+F(v_x,v_y,v_z)=(\frac{1}{2\pi \sigma^2})^{\frac{3}{2}}e^{\frac{1}{2 \sigma^2}(v_x^2+v_y^2+v_z^2)}
+$$
+
+$$
+f(v)=4\pi(\frac{1}{2\pi \sigma^2})^{\frac{3}{2}}e^{\frac{1}{2 \sigma^2}v^2}v^2
+$$
+
+
+芝士正态分布！！！！！$\sigma$是速度分量的标准差！！！
+
+### 三个重要的速率
+
+最可几速率
+$$
+v_p=\sqrt{\frac{2k_B T}{m}}=\sqrt{2}\sigma
+$$
+
+平均速率
+$$
+\overline{v}=\sqrt{\frac{8k_B T}{\pi m}}=\sqrt{\frac{8}{\pi}}\sigma
+$$
+
+均方根速率
+$$
+v=\sqrt{\frac{3k_B T}{m}}=\sqrt{3}\sigma
+$$
