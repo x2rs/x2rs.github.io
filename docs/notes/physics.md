@@ -39,10 +39,13 @@ $n$ 为单位体积内的分子数
 <!--这是正确的吗？？？-->
 
 定义：$m_{all}$为气体总质量，$M$为气体摩尔质量，有：
+
 $$
 pV=\frac{m}{M} R T
 $$
+
 上式中两边除以 $V$，
+
 $$
 p = \frac{\rho}{M} R T = \frac{\rho}{M} k_B N_A T = ???
 $$
@@ -54,6 +57,7 @@ $$
 ### 对大量分子组成的气体系统的统计假设
 
 （1）气体处在平衡态时，分子在容器中的空间分布，平均来说是均匀的 （不考虑重力影响）
+
 $$
 n = \frac{dN}{dV}=\frac{N}{V}
 $$
@@ -68,24 +72,30 @@ dN, dV 不是无穷小
 
 ### 理想气体速度分布各向同性(isotropic)
 
-
 $$\overline{v_x^2}=\overline{v_y^2}=\overline{v_z^2}=\frac{1}{3} \overline{v^2}$$
 
 气体在平衡态时，具有相同速率的分子向各个方向运动的平均分子数是相同的（速度分布的各向同性）若定义
+
 $$
 \overline{v_x}=\frac{\sum_i v_{xi}}{N}
 $$
+
 $$
 \overline{v_x^2}=\frac{\sum_i v_{xi}^2}{N}
 $$
+
 则显然有
+
 $$
 \overline{v_x}=\overline{v_y}=\overline{v_z}=0
 $$
+
 $$
 \overline{v_x^2}=\overline{v_y^2}=\overline{v_z^2}=\frac{1}{3}\overline{v^2}
 $$
+
 因为
+
 $$
 \overline{v^2}=\overline{v_x^2}+\overline{v_y^2}+\overline{v_z^2}
 $$

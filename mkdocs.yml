@@ -74,10 +74,6 @@ repo_url: https://github.com/x2rs/x2rs.github.io
 repo_name: x2rs.github.io
 
 markdown_extensions:
-  # [数学公式支持]
-  # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
-  - pymdownx.arithmatex:
-      generic: true
   # [代码语法高亮]
   # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-blocks
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
