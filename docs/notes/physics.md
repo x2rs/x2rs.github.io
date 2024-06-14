@@ -118,11 +118,11 @@ p=\frac{\mathrm d F}{\mathrm d S}=\frac{\mathrm d I/\mathrm d t}{\mathrm d S}=\s
 $$
 代入平均分子动能 $\overline{\varepsilon _t}=\frac{1}{2}m\overline{v^2}$，得到 $p=\frac{2}{3}n\overline{\varepsilon_t}$。
 
-代入 $p=nkT$，结论 $\overline{\varepsilon_t}=\frac{3}{2}kT$， 温度标志着物体内部分子热运动的剧烈程度，它是大量分子热运动的平均平动动能 $\overline{\varepsilon_t}$ 的统计平均值的量度。
+代入 $p=nk_B T$，结论 $\overline{\varepsilon_t}=\frac{3}{2}k_B T$， 温度标志着物体内部分子热运动的剧烈程度，它是大量分子热运动的平均平动动能 $\overline{\varepsilon_t}$ 的统计平均值的量度。
 
-均方根速率：$\overline{\varepsilon_t}=\frac{1}{2}m\overline{v^2}=\frac{3}{2}kT$，得到
+均方根速率：$\overline{\varepsilon_t}=\frac{1}{2}m\overline{v^2}=\frac{3}{2}k_B T$，得到
 $$
-\sqrt{\overline{v^2}}=\sqrt{\frac{3kT}{m}}\overset{\times N_A}{=}\sqrt{\frac{3RT}{M}}
+\sqrt{\overline{v^2}}=\sqrt{\frac{3k_B T}{m}}\overset{\times N_A}{=}\sqrt{\frac{3RT}{M}}
 $$
 
 ## 速率分布函数
