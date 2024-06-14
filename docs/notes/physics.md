@@ -89,7 +89,3 @@ $$
 $$
 \overline{v^2}=\overline{v_x^2}+\overline{v_y^2}+\overline{v_z^2}
 $$
-
-### 理想气体压强公式
-
-设 $n$
