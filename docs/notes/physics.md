@@ -413,3 +413,7 @@ $$
    \frac{1}{2}mu^2= \Delta \left(\frac{m}{M} N_A  \frac{5}{2} k_BT\right)=\Delta \left(\frac{m}{M} N_A \frac{5}{3}\overline{\varepsilon_t}\right)=\Delta \left(\frac{m}{M} N_A \frac{5}{6} \frac{M}{N_A} \overline{v^2}\right)
    $$
    因此 $\Delta \overline{v^2}=\frac{3}{5}u^2$
+
+# References
+
+[kumikosjtu.github.io](https://kumikosjtu.github.io/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/Ch8-%E5%88%86%E5%AD%90%E5%8A%A8%E7%90%86%E8%AE%BA.html)
