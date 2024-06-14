@@ -121,6 +121,7 @@ $$
 代入 $p=nk_B T$，结论 $\overline{\varepsilon_t}=\frac{3}{2}k_B T$， 温度标志着物体内部分子热运动的剧烈程度，它是大量分子热运动的平均平动动能 $\overline{\varepsilon_t}$ 的统计平均值的量度。
 
 均方根速率：$\overline{\varepsilon_t}=\frac{1}{2}m\overline{v^2}=\frac{3}{2}k_B T$，得到
+
 $$
 \sqrt{\overline{v^2}}=\sqrt{\frac{3k_B T}{m}}\overset{\times N_A}{=}\sqrt{\frac{3RT}{M}}
 $$
@@ -226,13 +227,5 @@ $$
 
 均方根速率
 $$
-v=\sqrt{\frac{3k_B T}{m}}=\sqrt{3}\sigma
-$$
-
-$$
-\varepsilon _t
-$$
-
-$$
-p=\frac{2}{3}
+\sqrt{\overline{v^2}}=\sqrt{\frac{3k_B T}{m}}=\sqrt{3}\sigma
 $$
