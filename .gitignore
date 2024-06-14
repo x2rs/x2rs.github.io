@@ -1,2 +1,6 @@
-site
+# mkdocs site
+site/
+# vscode workspace
 *.code-workspace
+# personal references dir
+__references/
