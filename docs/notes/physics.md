@@ -100,6 +100,31 @@ $$
 \overline{v^2}=\overline{v_x^2}+\overline{v_y^2}+\overline{v_z^2}
 $$
 
+设第 $i$ 组分子的速度在 $\overline{v_i}\sim\overline{v_i}+\mathrm d \overline{v_i}$ 区间内，以 $n_i$ 表示单位体积内第 $i$ 组分子的数量。$m$：分子质量，$n=\sum n_i$
+
+一次碰撞分子动量变化 $2mv_{ix}$，完全弹性碰撞，在 $\mathrm d t$ 时间内与 $\mathrm d A$ 碰撞的分子数 $n_i \underbrace{v_{ix}\mathrm d t}_{能碰到容器壁对应的距离}\underbrace{\mathrm d S}_{面元}$。
+
+他们给容器壁的总冲量：
+$$
+2mn_iv_{ix}^2 \mathrm d t\mathrm d S
+$$
+考虑不同速度分子，一半朝左一半朝右，朝左碰右壁，朝右碰左壁：
+$$
+\mathrm d I=\sum_{i,v_{ix}>0 朝左} 2mn_i v_{ix}^2 \mathrm d t\mathrm d S=\sum_i m n_iv_{ix}^2 \mathrm d t\mathrm d S
+$$
+得到
+$$
+p=\frac{\mathrm d F}{\mathrm d S}=\frac{\mathrm d I/\mathrm d t}{\mathrm d S}=\sum_i mn_iv_{ix}^2 =nm\frac{\sum_i n_i v_{xi}^2}{\underbrace{\sum_i n_i}_{n}}=nm\overline{v_x^2}=\frac{1}{3}nm\overline{v^2}
+$$
+代入平均分子动能 $\overline{\varepsilon _t}=\frac{1}{2}m\overline{v^2}$，得到 $p=\frac{2}{3}n\overline{\varepsilon_t}$。
+
+代入 $p=nkT$，结论 $\overline{\varepsilon_t}=\frac{3}{2}kT$， 温度标志着物体内部分子热运动的剧烈程度，它是大量分子热运动的平均平动动能 $\overline{\varepsilon_t}$ 的统计平均值的量度。
+
+均方根速率：$\overline{\varepsilon_t}=\frac{1}{2}m\overline{v^2}=\frac{3}{2}kT$，得到
+$$
+\sqrt{\overline{v^2}}=\sqrt{\frac{3kT}{m}}\overset{\times N_A}{=}\sqrt{\frac{3RT}{M}}
+$$
+
 ## 速率分布函数
 
 阿巴阿巴阿巴
@@ -202,4 +227,12 @@ $$
 均方根速率
 $$
 v=\sqrt{\frac{3k_B T}{m}}=\sqrt{3}\sigma
+$$
+
+$$
+\varepsilon _t
+$$
+
+$$
+p=\frac{2}{3}
 $$
