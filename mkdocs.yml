@@ -7,6 +7,7 @@ nav:
   - 笔记:
     - notes/Cramer-Rao.md
     - notes/physics.md
+    - notes/physics9.md
   - 杂项:
     - matlab/simple_linear.md
     - useful_apps.md
