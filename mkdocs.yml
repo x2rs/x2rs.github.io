@@ -10,6 +10,8 @@ nav:
   - 笔记:
     - notes/Cramer-Rao.md
     - notes/physics.md
+    - notes/order-of-destructor-calls.md
+    - notes/strong-and-weak-symbol.md
   - 杂项:
     - matlab/simple_linear.md
     - useful_apps.md
