@@ -12,6 +12,7 @@ nav:
     - notes/physics.md
     - notes/order-of-destructor-calls.md
     - notes/strong-and-weak-symbol.md
+    - notes/cpp-derived-class-access.md
   - 杂项:
     - matlab/simple_linear.md
     - useful_apps.md
