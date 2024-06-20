@@ -1,4 +1,4 @@
-# 一些免费的实用应用
+# 实用应用
 
 ## 浏览器插件
 
@@ -21,3 +21,7 @@
 [CodeGeeX](https://codegeex.cn/zh-CN)
 
 [CharacterGLM](https://pro.ai-topia.com/microweb)
+
+## Others
+
+[Pigcha](https://pigpigchacha.github.io/officialsite)
