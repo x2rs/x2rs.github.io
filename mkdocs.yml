@@ -16,6 +16,8 @@ nav:
   - 杂项:
     - matlab/simple_linear.md
     - useful_apps.md
+  - mkdocs:
+    - mkdocs/re0.md
 
 theme:
   name: material
