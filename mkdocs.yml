@@ -20,7 +20,10 @@ nav:
 
 theme:
   name: material
-# [切换日间模式和夜间模式]
+  # [给每个页面添加giscus]
+  # https://github.com/x2rs/x2rs.github.io/issues/6
+  custom_dir: overrides
+  # [切换日间模式和夜间模式]
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle
   palette:
     # 日间模式
