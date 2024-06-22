@@ -87,6 +87,7 @@ markdown_extensions:
   # [代码语法高亮]
   # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-blocks
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
+  - pymdownx.superfences
   - pymdownx.highlight:
       # 显示行号
       linenums: true
