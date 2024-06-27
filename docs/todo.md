@@ -5,7 +5,7 @@
 
 ## 学习
 
-- [ ] git 分支如何管理
+- [x] git 分支如何管理
 - [ ] C++ modern template
 - [ ] Selenium
 
