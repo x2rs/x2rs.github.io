@@ -85,8 +85,8 @@ plugins:
   # [搜索功能]
   # 注意：如果在配置文件中还没有 plugins 条目，您可能还想添加 search 插件。MkDocs 在没有设置 plugins 条目时默认启用搜索功能，但现在您需要显式启用它。
   - search
-  # - git-revision-date-localized:
-  #     enable_creation_date: true
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 # [点击按钮跳转至 GitHub 修改 Markdown 源文件]
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
