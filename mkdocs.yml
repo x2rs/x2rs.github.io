@@ -14,6 +14,7 @@ nav:
     - notes/strong-and-weak-symbol.md
     - notes/cpp-derived-class-access.md
     - notes/regex.md
+    - notes/python-venv.md
   - 杂项:
     - matlab/simple_linear.md
     - useful_apps.md
