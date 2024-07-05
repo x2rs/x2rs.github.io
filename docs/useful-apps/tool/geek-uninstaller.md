@@ -1,4 +1,4 @@
-### Geek Uninstaller
+# Geek Uninstaller
 
 [官方链接](https://geekuninstaller.com/)
 

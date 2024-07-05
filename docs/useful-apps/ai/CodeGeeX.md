@@ -1,4 +1,4 @@
-### CodeGeeX
+# CodeGeeX
 
 [官方链接](https://codegeex.cn/zh-CN)
 

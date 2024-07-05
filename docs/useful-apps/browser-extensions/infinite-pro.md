@@ -1,4 +1,4 @@
-### Infinite 新标签页 Pro
+# Infinite 新标签页 Pro
 
 由于本人偏好用Edge，所以暂时只放一个[Edge 下载链接](https://microsoftedge.microsoft.com/addons/detail/infinity-%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5-pro/hajlmbnnniemimmaehcefkamdadpjlfa?hl=zh-CN)。
 
