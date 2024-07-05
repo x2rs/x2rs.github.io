@@ -8,18 +8,29 @@ nav:
     - index.md
     - todo.md
   - 笔记:
-    - notes/Cramer-Rao.md
+    - notes/regex.md
     - notes/physics.md
+  - 实用应用:
+    - useful-apps/index.md
+    - useful-apps/ai/CharacterGLM.md
+    - useful-apps/ai/ChatGLM.md
+    - useful-apps/ai/CodeGeeX.md
+    - useful-apps/browser-extensions/infinite-pro.md
+    - useful-apps/browser-extensions/ndm.md
+    - useful-apps/index.md
+    - useful-apps/others/pigcha.md
+    - useful-apps/tool/everything.md
+    - useful-apps/tool/geek-uninstaller.md
+    - useful-apps/tool/space-sniffer.md
+  - Learn Intern LM:
+    - learn-lm/intern-lm-1.md
+  - 杂项:
+    - matlab/simple_linear.md
+    - notes/python-venv.md
+    - notes/Cramer-Rao.md
     - notes/order-of-destructor-calls.md
     - notes/strong-and-weak-symbol.md
     - notes/cpp-derived-class-access.md
-    - notes/regex.md
-    - notes/python-venv.md
-  - 杂项:
-    - matlab/simple_linear.md
-    - useful_apps.md
-  - Learn Intern LM:
-    - learn-lm/intern-lm-1.md
 
 theme:
   name: material
