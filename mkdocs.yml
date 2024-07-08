@@ -7,9 +7,11 @@ nav:
   - 主页:
     - index.md
     - todo.md
+    - mkdocs/tutorial.md
   - 笔记:
     - notes/regex.md
     - notes/physics.md
+    - mkdocs/re0.md
   - 实用应用:
     - useful-apps/index.md
     - useful-apps/ai/CharacterGLM.md
