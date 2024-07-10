@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://x2rs.github.io/internlm/l0-python/</loc>
+         <lastmod>2024-07-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://x2rs.github.io/learn-lm/intern-lm-1/</loc>
          <lastmod>2024-07-10</lastmod>
          <changefreq>daily</changefreq>
