@@ -13,8 +13,6 @@
 
 ## 完成SSH连接与端口映射并运行`hello_world.py`
 
-在开发机运行
-
 ![image-20240710090129412](images/image-20240710090129412.png)
 
 ## 使用 VSCODE 远程连接开发机并创建一个conda环境
