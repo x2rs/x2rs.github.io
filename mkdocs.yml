@@ -32,6 +32,7 @@ nav:
     - notes/order-of-destructor-calls.md
     - notes/strong-and-weak-symbol.md
     - notes/cpp-derived-class-access.md
+    - notes/sc-i8042prt.md
 
 theme:
   name: material
