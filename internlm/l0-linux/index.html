@@ -1025,6 +1025,8 @@
       
         
       
+        
+      
     
     
       
@@ -1184,6 +1186,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../notes/sc-i8042prt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Windows 10/11 禁用/启用笔记本自带键盘
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1319,8 +1342,8 @@
 </table>
 <p><a href="https://github.com/InternLM/Tutorial/blob/camp3/docs/L0/Linux/readme.md">文档链接</a></p>
 <h2 id="sshhello_worldpy">完成SSH连接与端口映射并运行<code>hello_world.py</code></h2>
-<p>首先将开发机通过 SSH 端口映射到本地 VS Code，命令如下。</p>
-<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1">ssh<span class="w"> </span>-p<span class="w"> </span><span class="m">48512</span><span class="w"> </span>root@ssh.intern-ai.org.cn<span class="w"> </span>-o<span class="w"> </span><span class="nv">StrictHostKeyChecking</span><span class="o">=</span>no<span class="w"> </span>-o<span class="w"> </span><span class="nv">UserKnownHostsFile</span><span class="o">=</span>/dev/null
+<p>首先将开发机通过 SSH 连接，端口映射到本地 VS Code，命令如下。</p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1">ssh<span class="w"> </span>-p<span class="w"> </span><span class="m">48512</span><span class="w"> </span>root@ssh.intern-ai.org.cn<span class="w"> </span>-CNg<span class="w"> </span>-L<span class="w"> </span><span class="m">7860</span>:127.0.0.1:7860<span class="w"> </span>-o<span class="w"> </span><span class="nv">StrictHostKeyChecking</span><span class="o">=</span>no
 </span></code></pre></div></td></tr></table></div>
 <p>创建文件 <code>~/hello_world.py</code> 并写入以下内容。</p>
 <div class="language-python highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Python</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
@@ -1391,9 +1414,9 @@
 <div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1">pip<span class="w"> </span>install<span class="w"> </span>gradio
 </span></code></pre></div></td></tr></table></div>
 <p>等待下载完成后，运行 <code>~/hello_world.py</code></p>
-<p><img alt="image-20240711143736976" src="C:\Users\dream\AppData\Roaming\Typora\typora-user-images\image-20240711143736976.png" /></p>
+<p><img alt="image-20240711143736976" src="../images/image-20240711143736976.png" /></p>
 <p>运行后，gradio 在本地 <code>http://127.0.0.1:7860</code> 创建了网页，通过本地浏览器打开，页面如下。</p>
-<p><img alt="image-20240711144217646" src="C:\Users\dream\AppData\Roaming\Typora\typora-user-images\image-20240711144217646.png" /></p>
+<p><img alt="image-20240711144217646" src="../images/image-20240711144217646.png" /></p>
 <h2 id="vscode-conda">使用 VSCODE 远程连接开发机并创建一个conda环境</h2>
 <p><img alt="image-20240710091032304" src="../images/image-20240710091032304.png" /></p>
 <h2 id="testsh">创建并运行<code>test.sh</code>文件</h2>

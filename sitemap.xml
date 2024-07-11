@@ -66,6 +66,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://x2rs.github.io/notes/sc-i8042prt/</loc>
+         <lastmod>2024-07-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://x2rs.github.io/notes/strong-and-weak-symbol/</loc>
          <lastmod>2024-07-11</lastmod>
          <changefreq>daily</changefreq>
