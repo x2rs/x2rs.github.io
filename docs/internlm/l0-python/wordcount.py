@@ -9,13 +9,12 @@ so I got to play with it myself before I gave it
 to her.
 """
 
+import re
 from collections import Counter
 
 def wordcount(text: str):
     # 去除标点符号
-    punctuation = "!.,?"
-    for p in punctuation:
-        text = text.replace(p, '')
+    text = re.sub(f"[!.,?]", "", text)
 
     # 转换为小写并分割单词
     words = text.lower().split()

@@ -1,4 +1,4 @@
-# Python task
+# L0 Python 闯关
 
 [文档链接](https://github.com/InternLM/Tutorial/blob/camp3/docs/L0/Python/task.md)
 
