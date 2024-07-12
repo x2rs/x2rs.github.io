@@ -121,6 +121,8 @@ markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
   - admonition
   - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.highlight:
       # 显示行号
