@@ -1,4 +1,4 @@
-# Python task
+# L0 Python 闯关
 
 [文档链接](https://github.com/InternLM/Tutorial/blob/camp3/docs/L0/Python/task.md)
 
@@ -36,33 +36,8 @@ TIPS：记得先去掉标点符号，然后把每个单词转换成小写。不�
 
 ### 任务一解答
 
-```python
-text = """
-Got this panda plush toy for my daughter's birthday,
-who loves it and takes it everywhere. It's soft and
-super cute, and its face has a friendly look. It's
-a bit small for what I paid though. I think there
-might be other options that are bigger for the
-same price. It arrived a day earlier than expected,
-so I got to play with it myself before I gave it
-to her.
-"""
-
-from collections import Counter
-
-def wordcount(text: str):
-    # 去除标点符号
-    punctuation = "!.,?"
-    for p in punctuation:
-        text = text.replace(p, '')
-
-    # 转换为小写并分割单词
-    words = text.lower().split()
-
-    # 统计单词
-    return dict(Counter(words))
-
-print(wordcount(text))
+```python title="wordcount.py"
+--8<-- "docs/internlm/l0-python/wordcount.py"
 ```
 
 ## 任务二
@@ -85,22 +60,8 @@ print(wordcount(text))
 
 选择 Python Debugger: Debug using launch.json 会在 `~/.vscode/` 目录下生成 `launch.json` 配置文件，内容如下：
 
-```json
-{
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Python Debugger: Current File",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        }
-    ]
-}
+```json title="launch.json"
+--8<-- "docs/internlm/l0-python/launch.json"
 ```
 
 进入 Python 调试后，用上方的按钮进行 Continue，Step Over 等操作；左侧出现 VARIABLES 视图，显示局部和全局变量。
